@@ -5,6 +5,7 @@
 
 cc_binary {
     name: "android.hardware.light-service.lineage",
+    overrides: ["android.hardware.lights-service.qti"],
     defaults: ["hidl_defaults"],
     vendor: true,
     relative_install_path: "hw",
